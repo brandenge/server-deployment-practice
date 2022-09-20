@@ -5,7 +5,8 @@
 ### Author: John Cokos
 
 - [Submission PR](https://github.com/brandenge/server-deployment-practice/pull/1)
-- Tests report
+- [Heroku Production](https://server-deployment-pract-prod.herokuapp.com/)
+- [Heroku Dev](https://server-deployment-pract-dev.herokuapp.com/)
 
 ### Setup
 
@@ -25,7 +26,5 @@ UML
 (Created with diagrams)
 
 #### UML Diagram
-
-
 
 (Created with [diagrams](https://app.diagrams.net/))
