@@ -1,18 +1,27 @@
-# LAB - 01
+# LAB - Class 01
 
 ## Deployment Test
 
-### Author: John Cokos
+### Author: Branden Ge
+
+### Problem Domain
+
+This lab demonstrates how to do mock testing with
 
 - [Submission PR](https://github.com/brandenge/server-deployment-practice/pull/1)
-- [Heroku Production](https://server-deployment-pract-prod.herokuapp.com/)
-- [Heroku Dev](https://server-deployment-pract-dev.herokuapp.com/)
+- [CI/CD GitHub Actions](https://github.com/brandenge/server-deployment-practice/actions)
+- [Back-end server url production](https://server-deployment-pract-prod.herokuapp.com/)
+- [Back-end server url development](https://server-deployment-pract-dev.herokuapp.com/)
 
 ### Setup
 
 1) Install dependencies - npm i
 2) Add .env file with port number per .envsample
 3) Start the application with npm start or nodemon
+
+`.env` requirements
+
+- `PORT` - Port Number
 
 #### Running the app
 
@@ -27,4 +36,6 @@ UML
 
 #### UML Diagram
 
-(Created with [diagrams](https://app.diagrams.net/))
+![UML Diagram](uml.png)
+
+(Created with [InVision](https://www.invisionapp.com/))
