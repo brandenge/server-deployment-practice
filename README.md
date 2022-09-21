@@ -1,41 +1,37 @@
 # LAB - Class 01
 
-## Deployment Test
+## Project: Deployment Test
 
 ### Author: Branden Ge
 
 ### Problem Domain
 
-This lab demonstrates how to do mock testing with
+This lab demonstrates how to do mock testing with an Express server.
 
-- [Submission PR](https://github.com/brandenge/server-deployment-practice/pull/1)
 - [CI/CD GitHub Actions](https://github.com/brandenge/server-deployment-practice/actions)
 - [Back-end server url production](https://server-deployment-pract-prod.herokuapp.com/)
 - [Back-end server url development](https://server-deployment-pract-dev.herokuapp.com/)
 
 ### Setup
 
-1) Install dependencies - npm i
-2) Add .env file with port number per .envsample
-3) Start the application with npm start or nodemon
-
-`.env` requirements
-
-- `PORT` - Port Number
+- Add `.env` file with a `PORT` variable set to a port number as shown in the `.envsample`.
 
 #### Running the app
 
-- npm start
+- `npm start` or `nodemon` (if you have nodemon) to start the application.
+
+#### Features / Routes
+
+- GET : `/` - root
+- GET : `/bad` - designated bad route that always responds with a 500 Internal Server Error.
+- GET : `*` - catch-all route which always responds with a 404 Not Found error.
 
 #### Tests
 
-- Unit Tests: npm run test
-
-UML
-(Created with diagrams)
+- `npm test` to run tests
 
 #### UML Diagram
 
-![UML Diagram](uml.png)
+![UML Diagram](uml1.png)
 
-(Created with [InVision](https://www.invisionapp.com/))
+Diagram created with [InVision](https://www.invisionapp.com/)
