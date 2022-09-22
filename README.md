@@ -35,3 +35,5 @@ This lab demonstrates how to do mock testing with an Express server.
 ![UML Diagram](uml1.png)
 
 Diagram created with [InVision](https://www.invisionapp.com/)
+
+#### Credits: [Demo code from Ryan Gallaway at Code Fellows](https://github.com/codefellows/seattle-code-javascript-401d48/tree/main/class-01/inclass-demo)
